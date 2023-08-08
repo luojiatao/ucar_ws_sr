@@ -1,0 +1,2 @@
+darknet_msgs:gazebo_pkg:geometry/eigen_conversions:geometry/geometry:geometry/kdl_conversions:geometry/tf:geometry/tf_conversions:geometry2/geometry2:geometry2/test_tf2:geometry2/tf2:geometry2/tf2_bullet:geometry2/tf2_eigen:geometry2/tf2_geometry_msgs:geometry2/tf2_kdl:geometry2/tf2_msgs:geometry2/tf2_py:geometry2/tf2_ros:geometry2/tf2_sensor_msgs:geometry2/tf2_tools:sr_pkg:teleop_twist_keyboard:ucar_camera:ucar_map:ucar_nav
+-DCATKIN_DEVEL_PREFIX=/home/luo/ucar_ws_sr/devel -DCMAKE_INSTALL_PREFIX=/home/luo/ucar_ws_sr/install -G Unix Makefiles

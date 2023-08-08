@@ -1,0 +1,8 @@
+prefix=/home/luo/ucar_ws_sr/install
+
+Name: darknet_msgs
+Description: Description of darknet_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

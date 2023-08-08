@@ -1,0 +1,14 @@
+<launch>
+
+    <include file="$(find ucar_nav)/launch/navi_fast.launch" />
+
+    <!-- <include file="$(find xf_mic_asr_offline)/launch/xf_mic_asr_offline.launch" >  -->
+
+
+    <node pkg="ucar_cam" name="ucar_cam" type="usb_camera_SR.py" output="screen" /> 
+
+     <node pkg="sr_pkg" name="darknet_node" type="darknet_node_SR.py" output="screen" />
+
+    <node pkg="sr_pkg" name="smartcar_test" type="SR_nav.py" output="screen" /> 
+
+</launch>
