@@ -1,0 +1,8 @@
+<launch>
+
+<param name="final_goal" value="D3" />
+
+ <node pkg="taurus_pkg" name="start_node" type="start_node.py" output="screen"/>
+   
+</launch>
+

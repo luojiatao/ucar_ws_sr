@@ -1,0 +1,16 @@
+<launch>
+
+<param name="final_goal" value="D1" />
+
+ <node pkg="taurus_pkg" name="start_node" type="start_node2.py" output="screen"/>
+ 
+ <include file="$(find taurus_pkg)/launch/cam_net.launch" > </include> 
+ 
+ <include file="$(find ucar_nav)/launch/navi_fast.launch" > </include> 
+ 
+ <include file="$(find taurus_pkg)/launch/smartcar_net.launch" > </include> 
+ 
+ <include file="$(find xf_mic_asr_offline)/launch/xf_mic_asr_offline.launch" > </include> 
+   
+</launch>
+

@@ -1,0 +1,11 @@
+<launch>
+  <!-- base driver -->
+  <include file="$(find ucar_controller)/launch/base_driver.launch">
+  </include>
+  <!-- lidar driver -->
+  <include file="$(find ydlidar)/launch/ydlidar.launch"/>
+  <!-- ekf -->
+ <!-- <include file="$(find robot_pose_ekf)/launch/robot_pose_ekf.launch"/>-->
+  <!-- gampping launch -->
+  <include file="$(find mbot_navigation)/launch/gmapping.launch"/>
+</launch>

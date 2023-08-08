@@ -1,0 +1,7 @@
+<launch>
+
+ <node pkg="taurus_pkg" name="smartcar_test" type="smartcar_test.py" output="screen"/>
+ <!-- <node pkg="taurus_pkg" name="smartcar_test" type="smartcar_test_no.py" output="screen"/>-->
+   
+</launch>
+

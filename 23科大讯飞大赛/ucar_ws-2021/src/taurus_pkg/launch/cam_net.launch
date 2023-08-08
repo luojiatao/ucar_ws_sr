@@ -1,0 +1,9 @@
+<launch>
+
+ <node pkg="ucar_cam" name="ucar_cam" type="usb_camera_new.py" output="screen"/>
+  <!--<include file="$(find easy_aruco)/launch/track_aruco_marker.launch" />-->
+  <node pkg="aruco_detection" name="detect_markers" type="detect.py" output="screen"/>
+  <node pkg="taurus_pkg" name="darknet_node" type="darknet_node.py" output="screen"/>
+  
+</launch>
+

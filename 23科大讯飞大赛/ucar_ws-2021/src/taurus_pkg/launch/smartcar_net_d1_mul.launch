@@ -1,0 +1,9 @@
+<launch>
+
+<param name="final_goal" value="D1" />
+
+ <node pkg="taurus_pkg" name="smartcar_test" type="smartcar_test_mul.py" output="screen"/>
+ <!-- <node pkg="taurus_pkg" name="smartcar_test" type="smartcar_test_no.py" output="screen"/>-->
+   
+</launch>
+
